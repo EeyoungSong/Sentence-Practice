@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #edf7ff;
+  --foreground: #171717;
+  --mainBlue: #d6ecfe;
+  --textBlue: #2671af;
+  --pwcScrollGrey: #eaeaea;
+  --pwcBorderGrey: #c6c6c8;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --mainOrange: #ff6f00;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre-wrap;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scroll {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.styled-scroll {
+  scrollbar-color: var(--pwcScrollGrey) transparent;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--pwcScrollGrey);
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .base-button {
+    @apply border-2 font-bold py-1 px-2 rounded-md m-1 min-h-4 flex items-center text-center;
+  }
+
+  .small-button {
+    @apply py-1.5 px-1 rounded-sm font-bold text-xs flex items-center text-center m-1 min-h-4 border-2;
+  }
+}
+
+@layer components {
+  .custom-select {
+    appearance: none;
+    text-align: center;
+    text-align-last: center;
+    background-image: url('../public/icons/down.svg');
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+  }
+}
+
+.ql-container {
+  height: 93% !important;
+}
