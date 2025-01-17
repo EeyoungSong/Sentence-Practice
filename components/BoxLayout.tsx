@@ -1,10 +1,8 @@
-import React from 'react';
-
-interface TextBoxProps {
+interface BoxLayoutProps {
   children: React.ReactNode; // 동적으로 삽입될 콘텐츠
 }
 
-export const TextBox = ({ children }: TextBoxProps): JSX.Element => {
+export const BoxLayout = ({ children }: BoxLayoutProps): JSX.Element => {
   return (
     <div className="flex justify-center items-center relative bg-white text-textBlue p-4 rounded-[30px] min-h-[300px] w-[100%]">
       {children}
