@@ -56,9 +56,9 @@ const InputTestInfoPage = (): JSX.Element => {
           <div className="flex justify-center items-center bg-white w-[100px] h-[40px] text-center rounded-[10px]"><div>중국어</div></div>
         </div>
         <div className="grid grid-cols-2 gap-5 justify-items-center w-full">
-          {filteredData.map((data, index) => (
+          {/* {filteredData.map((data, index) => (
             <BigButton key={index} text={data.name} />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

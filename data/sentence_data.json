@@ -298,6 +298,365 @@
               "additional_info": "bùyòng le.",
               "memo": ""
             }
-          ]
+          ],
+          [
+            {
+              "book_id": 4,
+              "id": 1,
+              "front": "对不起，打扰你们一下儿。",
+              "back": "괜찮아요, 말씀하세요.",
+              "additional_info": "duìbuqǐ, dǎrǎo nǐmen yīxià er.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 2,
+              "front": "别客气，你说吧。",
+              "back": "괜찮아요, 말씀하세요.",
+              "additional_info": "bié kèqì, nǐ shuō ba.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 3,
+              "front": "我现在得上楼去，要是丹尼尔来了，你就让他等我一下儿。",
+              "back": "지금 올라가야 해요. 만약 다니엘이 오면, 그를 잠시 기다리게 해주세요.",
+              "additional_info": "wǒ xiànzài děi shàng lóu qù, yàoshi dānníěr lái le, nǐ jiù ràng tā děng wǒ yīxià er.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 4,
+              "front": "没问题。",
+              "back": "문제 없어요.",
+              "additional_info": "méi wèntí.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 5,
+              "front": "告诉他我马上就下来。多谢了。",
+              "back": "그에게 내가 곧 내려간다고 전해주세요. 감사합니다.",
+              "additional_info": "gàosù tā wǒ mǎshàng jiù xiàlái. duōxiè le.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 5,
+              "id": 1,
+              "front": "今晚你和保罗有空儿的话，我想请你们去看电影。",
+              "back": "오늘 밤, 폴과 시간이 있으면 영화 보러 가고 싶어요.",
+              "additional_info": "jīnwǎn nǐ hé bǎoluó yǒu kòng er dehuà, wǒ xiǎng qǐng nǐmen qù kàn diànyǐng.",
+              "memo": ""
+            },
+            {
+              "book_id": 5,
+              "id": 2,
+              "front": "我不太想去，电影了的对话太快了，我可能听不懂。",
+              "back": "저는 별로 가고 싶지 않아요. 영화 속 대화가 너무 빨라서 잘 이해할 수 없을 것 같아요.",
+              "additional_info": "wǒ bù tài xiǎng qù, diànyǐng liǎo de duìhuà tài kuài le, wǒ kěnéng tīng bù dǒng.",
+              "memo": ""
+            },
+            {
+              "book_id": 5,
+              "id": 3,
+              "front": "有中文字幕，大概的意思你肯定看得懂。",
+              "back": "자막이 있어요. 대략적인 의미는 분명히 이해할 수 있을 거예요.",
+              "additional_info": "yǒu zhùyīng zìmù, dàgài de yìsi nǐ kěndìng kàn de dǒng.",
+              "memo": ""
+            },
+            {
+              "book_id": 5,
+              "id": 4,
+              "front": "鲍罗区的俩去不了？",
+              "back": "바울은 못 가나요?",
+              "additional_info": "bàoluó qū de liǎ qù bù liǎo?",
+              "memo": ""
+            },
+            {
+              "book_id": 5,
+              "id": 5,
+              "front": "他恐怕去不了。",
+              "back": "그는 아마 못 갈 거예요.",
+              "additional_info": "tā kǒngpà qù bù liǎo.",
+              "memo": ""
+            },
+            {
+              "book_id": 5,
+              "id": 6,
+              "front": "为什么？",
+              "back": "왜요?",
+              "additional_info": "wèishénme?",
+              "memo": ""
+            },
+            {
+              "book_id": 5,
+              "id": 7,
+              "front": "昨天他踢球的时候受伤了，现在走不了路了。",
+              "back": "어제 축구를 하다가 다쳤어요. 지금은 걸을 수 없어요.",
+              "additional_info": "zuótiān tā tī qiú de shíhòu shòushāng le, xiànzài zǒu bù liǎo lù le.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 6,
+              "id": 1,
+              "front": "咱们坐这儿吧。",
+              "back": "우리 여기 앉자.",
+              "additional_info": "zánmen zuò zhèr ba.",
+              "memo": ""
+            },
+            {
+              "book_id": 6,
+              "id": 2,
+              "front": "太远了，恐怕看不清楚字母。",
+              "back": "너무 멀어서 글자가 잘 안 보일 것 같아요.",
+              "additional_info": "tài yuǎn le, kǒngpà kàn bù qīngchǔ zìmǔ.",
+              "memo": ""
+            },
+            {
+              "book_id": 6,
+              "id": 3,
+              "front": "那就做前边吧。",
+              "back": "그럼 앞쪽에 앉자.",
+              "additional_info": "nà jiù zuò qiánbiān ba.",
+              "memo": ""
+            },
+            {
+              "book_id": 6,
+              "id": 4,
+              "front": "坐这儿不错，看得清楚，也听得清楚。",
+              "back": "여기 앉으면 괜찮아요. 글자도 잘 보이고, 소리도 잘 들려요.",
+              "additional_info": "zuò zhèr bùcuò, kàn de qīngchǔ, yě tīng de qīngchǔ.",
+              "memo": ""
+            },
+            {
+              "book_id": 6,
+              "id": 5,
+              "front": "可是我前边这个人太高了，我看不见。",
+              "back": "하지만 앞에 있는 사람이 너무 커서, 저는 잘 안 보여요.",
+              "additional_info": "kěshì wǒ qiánbiān zhège rén tài gāo le, wǒ kàn bù jiàn.",
+              "memo": ""
+            },
+            {
+              "book_id": 6,
+              "id": 6,
+              "front": "咱俩换一下儿作为吧。",
+              "back": "우리 자리 바꿀까요?",
+              "additional_info": "zán liǎ huàn yīxià er zuòwéi ba.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 7,
+              "id": 1,
+              "front": "直美他们邀请咱们明天一起去郊游，你去得了吗？",
+              "back": "직미 그들이 내일 우리를 소풍에 초대했어요. 너 가겠어요?",
+              "additional_info": "zhí měi tāmen yāoqǐng zánmen míngtiān yīqǐ qù jiāoyóu, nǐ qù de liǎo ma?",
+              "memo": ""
+            },
+            {
+              "book_id": 7,
+              "id": 2,
+              "front": "没问题，我早就想出去玩儿玩儿了。",
+              "back": "문제 없어요, 전 이미 놀러 가고 싶었어요.",
+              "additional_info": "méi wèntí, wǒ zǎo jiù xiǎng chūqù wán er wán er le.",
+              "memo": ""
+            },
+            {
+              "book_id": 7,
+              "id": 3,
+              "front": "我们约好早上六点半出发。",
+              "back": "우리는 아침 6시 반에 출발하기로 했어요.",
+              "additional_info": "wǒmen yuē hǎo zǎoshang liù diǎn bàn chūfā.",
+              "memo": ""
+            },
+            {
+              "book_id": 7,
+              "id": 4,
+              "front": "这么早，怎么起得来呢？",
+              "back": "이렇게 일찍, 어떻게 일어나요?",
+              "additional_info": "zhème zǎo, zěnme qǐ de lái ne?",
+              "memo": ""
+            },
+            {
+              "book_id": 7,
+              "id": 5,
+              "front": "咱们得坐长途汽车，去晚了的话就赶不上了。",
+              "back": "우리는 장거리 버스를 타야 해요. 늦으면 못 갈 거예요.",
+              "additional_info": "zánmen děi zuò chángtú qìchē, qù wǎn le dehuà jiù gǎn bù shàng le.",
+              "memo": ""
+            },
+            {
+              "book_id": 7,
+              "id": 6,
+              "front": "那好吧。对了，晚上七点我还有个约会，七点以前回得来回不来？",
+              "back": "알겠어요. 그런데, 저녁 7시에 약속이 있어요. 7시 이전에 돌아올 수 있을까요?",
+              "additional_info": "nà hǎo ba. duì le, wǎnshàng qī diǎn wǒ hái yǒu gè yuēhuì, qī diǎn yǐqián huí de lái huí bù lái?",
+              "memo": ""
+            },
+            {
+              "book_id": 7,
+              "id": 7,
+              "front": "放心吧，耽误不了你的约会。",
+              "back": "걱정 마세요, 당신의 약속에 지장이 없을 거예요.",
+              "additional_info": "fàngxīn ba, dānwù bù liǎo nǐ de yuēhuì.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 8,
+              "id": 8,
+              "front": "我看，出去旅行你最好找个伴儿，可以互相帮助。",
+              "back": "내 생각엔, 여행 갈 때는 동행을 찾는 게 좋겠어요. 서로 도와줄 수 있죠.",
+              "additional_info": "wǒ kàn, chūqù lǚxíng nǐ zuì hǎo zhǎo gè bàn er, kěyǐ hùxiāng bāngzhù.",
+              "memo": ""
+            },
+            {
+              "book_id": 8,
+              "id": 9,
+              "front": "我也这么想。我准备跟保罗一起去。",
+              "back": "저도 그렇게 생각해요. 저는 폴과 함께 가려고 해요.",
+              "additional_info": "wǒ yě zhème xiǎng. wǒ zhǔnbèi gēn bǎoluó yīqǐ qù.",
+              "memo": ""
+            },
+            {
+              "book_id": 8,
+              "id": 10,
+              "front": "就是那个又高又壮的德国人吧？",
+              "back": "그게 바로 키 크고 체격 좋은 독일 사람이죠?",
+              "additional_info": "jiùshì nàgè yòu gāo yòu zhuàng de déguó rén ba?",
+              "memo": ""
+            },
+            {
+              "book_id": 8,
+              "id": 11,
+              "front": "她跟我一样高，但是比我装多了。",
+              "back": "그녀는 저와 같은 키지만, 제보다 훨씬 더 튼튼해요.",
+              "additional_info": "tā gēn wǒ yīyàng gāo, dànshì bǐ wǒ zhuāng duō le.",
+              "memo": ""
+            },
+            {
+              "book_id": 8,
+              "id": 12,
+              "front": "他有你大妈？",
+              "back": "그 사람, 당신의 이모보다 크죠?",
+              "additional_info": "tā yǒu nǐ dàmā?",
+              "memo": ""
+            },
+            {
+              "book_id": 8,
+              "id": 13,
+              "front": "他没有我大。",
+              "back": "그는 저보다 크지 않아요.",
+              "additional_info": "tā méiyǒu wǒ dà.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 9,
+              "id": 1,
+              "front": "学完以后你有什么打算？",
+              "back": "공부 끝난 후에 무슨 계획이 있어요?",
+              "additional_info": "xué wán yǐhòu nǐ yǒu shénme dǎsuàn?",
+              "memo": ""
+            },
+            {
+              "book_id": 9,
+              "id": 2,
+              "front": "我希望在中国找个工作，可是我家里人不同意，我不知道怎么办好。",
+              "back": "저는 중국에서 일자리를 구하고 싶지만, 가족들은 반대하고, 어떻게 해야 할지 모르겠어요.",
+              "additional_info": "wǒ xīwàng zài zhōngguó zhǎo gè gōngzuò, kěshì wǒ jiālǐ rén bù tóngyì, wǒ bù zhīdào zěnme bàn hǎo.",
+              "memo": ""
+            },
+            {
+              "book_id": 9,
+              "id": 3,
+              "front": "他们是不是觉得在国外生活没有在国内方便？",
+              "back": "그들은 해외에서 사는 것이 국내보다 불편하다고 생각하나요?",
+              "additional_info": "tāmen shì bù shì juédé zài guówài shēnghuó méiyǒu zài guónèi fāngbiàn?",
+              "memo": ""
+            },
+            {
+              "book_id": 9,
+              "id": 4,
+              "front": "是啊，有些方面确实没有国内方便，但是我对在这儿工作很感兴趣。",
+              "back": "네, 몇 가지 면에서는 국내보다 불편하지만, 여기서 일하는 것에 대해 매우 관심이 있어요.",
+              "additional_info": "shì a, yǒuxiē fāngmiàn quèshí méiyǒu guónèi fāngbiàn, dànshì wǒ duì zài zhèr gōngzuò hěn gǎn xìngqù.",
+              "memo": ""
+            },
+            {
+              "book_id": 9,
+              "id": 5,
+              "front": "依我看，你还是跟家里人再好好儿商量商量吧。",
+              "back": "제 생각에는, 당신은 가족과 다시 잘 상의하는 게 좋겠어요.",
+              "additional_info": "yī wǒ kàn, nǐ háishì gēn jiālǐ rén zài hǎohāo er shāngliáng shāngliáng ba.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 10,
+              "id": 1,
+              "front": "学习结束后，我打算去旅行。您说去西安好，还是去大同好？",
+              "back": "학습이 끝난 후 여행을 갈 계획이에요. 당신은 시안에 가는 게 좋다고 생각하나요, 아니면 다퉁이 좋다고 생각하나요?",
+              "additional_info": "xuéxí jiéshù hòu, wǒ dǎsuàn qù lǚxíng. nín shuō qù xī'ān hǎo, háishì qù dàtóng hǎo?",
+              "memo": ""
+            },
+            {
+              "book_id": 10,
+              "id": 2,
+              "front": "西安的名胜古迹比大同多，我建议你去西安看看。",
+              "back": "시안의 명소가 다퉁보다 많아요. 저는 당신에게 시안을 추천해요.",
+              "additional_info": "xī'ān de míngshèng gǔjī bǐ dàtóng duō, wǒ jiànyì nǐ qù xī'ān kànkan.",
+              "memo": ""
+            },
+            {
+              "book_id": 10,
+              "id": 3,
+              "front": "我听说西安比北京还热，大同是不是比北京凉快一点二",
+              "back": "저는 시안이 베이징보다 더 덥다고 들었어요. 다퉁이 베이징보다 더 시원한가요?",
+              "additional_info": "wǒ tīng shuō xī'ān bǐ běijīng hái rè, dàtóng shì bù shì bǐ běijīng liángkuai yīdiǎn èr",
+              "memo": ""
+            },
+            {
+              "book_id": 10,
+              "id": 4,
+              "front": "看天气预报，今年大同也不比北京凉快。",
+              "back": "일기 예보를 보니, 올해 다퉁도 베이징보다 시원하지 않대요.",
+              "additional_info": "kàn tiānqì yùbào, jīnnián dàtóng yě bù bǐ běijīng liángkuai.",
+              "memo": ""
+            },
+            {
+              "book_id": 10,
+              "id": 5,
+              "front": "西安比大同远的多吧？",
+              "back": "시안이 다퉁보다 훨씬 멀죠?",
+              "additional_info": "xī'ān bǐ dàtóng yuǎn de duō ba?",
+              "memo": ""
+            },
+            {
+              "book_id": 10,
+              "id": 6,
+              "front": "是啊。不过，曲线的车比较多，比去大同更方便。",
+              "back": "네, 하지만 굴곡이 많은 길로 가는 차가 많아서 다퉁보다 더 편리해요.",
+              "additional_info": "shì a. dànshì, qūxiàn de chē bǐjiào duō, bǐ qù dàtóng gèng fāngbiàn.",
+              "memo": ""
+            },
+            {
+              "book_id": 10,
+              "id": 7,
+              "front": "好，就听您的。",
+              "back": "알겠어요, 그럼 당신 말대로 할게요.",
+              "additional_info": "hǎo, jiù tīng nín de.",
+              "memo": ""
+            }
+        ]
+          
   ]
   

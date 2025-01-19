@@ -10,6 +10,8 @@ import sentenceDataJson from '@/data/sentence_data.json';
 import { NextButton } from '@/components/Button/NextButton';
 import { setFips } from 'crypto';
 import { ScoreButton } from '@/components/Button/ScoreButton';
+import { useRouter } from 'next/router';
+import { HomeIcon } from 'lucide-react';
 
 interface bookDataProps {
     id: number; 
@@ -30,9 +32,11 @@ interface sentenceDataProps {
 }
 
 const SentencePracticePage = (): JSX.Element => {
-    const bookId = 1;
+    const router = useRouter();
+    const { id } = router.query; 
+    const bookId = Number(id);
     const [sentenceDataAll, setSentenceDataAll] = useState<sentenceDataProps[][]>(sentenceDataJson);
-    const [sentenceData, setSentenceData] = useState<sentenceDataProps[]>(bookId > sentenceDataAll.length ? sentenceDataAll[bookId] : sentenceDataAll[0]);
+    const [sentenceData, setSentenceData] = useState<sentenceDataProps[]>(bookId < sentenceDataAll.length ? sentenceDataAll[bookId] : sentenceDataAll[0]);
     const [selectedCategory, setSelectedCategory] = useState<'문장' | '대화' | '단어'>('문장');
     const [curSentenceIdx, setCurSentenceIdx] = useState<number>(0);
     const [flipped, setFlipped] = useState<boolean>(false);
@@ -81,7 +85,7 @@ const SentencePracticePage = (): JSX.Element => {
     }
 
     const handlePrevButtonClick = () => {              
-      if (curSentenceIdx < sentenceData.length - 1) {
+      if (curSentenceIdx >= 0) {
         setCurSentenceIdx(prev => prev - 1)
       }
       setFlipped(false);
@@ -104,7 +108,8 @@ const SentencePracticePage = (): JSX.Element => {
   return (
     <div className="flex justify-center w-full m-auto mt-10 text-textBlue">
       <div className="flex-col justify-center items-center w-[400px] h-[932px] space-y-5 p-5">
-        <div className="flex justify-end items-center w-full h-10">
+        <div className="flex justify-between items-center w-full h-10">
+          <div onClick={() => router.push('/categories')}><HomeIcon /></div>
           <PlusButton />
         </div>
         <div className="flex justify-center items-center w-full h-10">

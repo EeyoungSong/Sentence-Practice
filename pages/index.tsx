@@ -29,7 +29,7 @@ export default function Home(): JSX.Element {
           </div>
           <TowSpaceTextBox textBack="a" textFront="b" />
           <Button text="aaaa" />
-          <BigButton text='aaaaaaa' />
+          {/* <BigButton text='aaaaaaa' /> */}
         </div>
       </main>
     </>
