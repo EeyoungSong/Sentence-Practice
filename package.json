@@ -8,8 +8,7 @@
     "start": "next start -p 3000",
     "lint": "next lint",
     "format": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "format:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "prepare": "husky install"
+    "format:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
@@ -44,18 +43,10 @@
     "eslint-config-next": "14.2.8",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
     "postcss": "^8",
     "prettier": "^3.4.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{ts,tsx}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
   }
 }

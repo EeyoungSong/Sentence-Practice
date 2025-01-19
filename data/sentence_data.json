@@ -1,0 +1,303 @@
+[
+    [{
+      "book_id": 0,
+      "id": 1,
+      "front": "喂， 是留学生宿舍吗？",
+      "back": "여보세요, 유학생 기숙사입니까?",
+      "additional_info": "wèi, shì liúxuéshēng sùshè ma?",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 2,
+      "front": "你打错了。",
+      "back": "잘못 거셨어요.",
+      "additional_info": "nǐ dǎ cuò le.",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 3,
+      "front": "喂, 我找莉莉。",
+      "back": "여보세요, 리리를 찾습니다.",
+      "additional_info": "wèi, wǒ zhǎo lìli.",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 4,
+      "front": "我就是。你是小叶吧？",
+      "back": "나야. 샤오위니?",
+      "additional_info": "wǒ jiù shì. nǐ shì xiǎoyè ba?",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 5,
+      "front": "猜对了。昨天你去哪儿了？ 我找了你一天没找到。",
+      "back": "맞아. 어제 어디 갔었어? 하루 종일 찾았는데 못 찾았어.",
+      "additional_info": "cāi duì le. zuótiān nǐ qù nǎr le? wǒ zhǎo le nǐ yì tiān méi zhǎo dào.",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 6,
+      "front": "我去朋友哪儿了， 一直待到十点才回来。你找我什么事？",
+      "back": "친구 집에 갔었어. 열 시까지 있다가 돌아왔어. 무슨 일이야야?",
+      "additional_info": "wǒ qù péngyou nǎr le, yìzhí dāi dào shí diǎn cái huílái. nǐ zhǎo wǒ shénme shì?",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 7,
+      "front": "你要的书我给你准备好了， 你什么时候来去？",
+      "back": "너가 원하던 책 준비했어. 언제 가지러 올래?",
+      "additional_info": "nǐ yào de shū wǒ gěi nǐ zhǔnbèi hǎo le, nǐ shénme shíhou lái qù?",
+      "memo": ""
+    },
+    {
+      "book_id": 0,
+      "id": 8,
+      "front": "太好了！我一吃完晚饭就去。",
+      "back": "정말 좋아! 저녁 먹고 바로 갈게.",
+      "additional_info": "tài hǎo le! wǒ yì chī wán wǎnfàn jiù qù.",
+      "memo": ""
+    }],
+    [{
+        "book_id": 1,
+        "id": 1,
+        "front": "请问， 丹尼尔在吗？",
+        "back": "실례합니다, 다니엘 있나요?",
+        "additional_info": "qǐngwèn, dānní'ěr zài ma?",
+        "memo": ""
+    },
+    {
+        "book_id": 1,
+        "id": 2,
+        "front": "他不在。您是哪位？",
+        "back": "그는 없습니다. 누구세요?",
+        "additional_info": "tā bú zài. nín shì nǎ wèi?",
+        "memo": ""
+    },
+    {
+        "book_id": 1,
+        "id": 3,
+        "front": "我是李英男，麻烦您转告他一件事，行吗？",
+        "back": "저는 이영남입니다. 그에게 한 가지를 전해주실 수 있나요?",
+        "additional_info": "wǒ shì lǐ yīngnán, máfan nín zhuǎngào tā yí jiàn shì, xíng ma?",
+        "memo": ""
+    },
+    {
+        "book_id": 1,
+        "id": 4,
+        "front": "没问题，你说吧。",
+        "back": "문제없습니다. 말씀하세요.",
+        "additional_info": "méi wèntí, nǐ shuō ba.",
+        "memo": ""
+    },
+    {
+        "book_id": 1,
+        "id": 5,
+        "front": "去大同的火车票买到了。星期五晚上九点半的。",
+        "back": "대동으로 가는 기차표를 샀습니다. 금요일 저녁 9시 반 것입니다.",
+        "additional_info": "qù dàtóng de huǒchēpiào mǎi dào le. xīngqīwǔ wǎnshàng jiǔ diǎn bàn de.",
+        "memo": ""
+    },
+    {
+        "book_id": 1,
+        "id": 6,
+        "front": "对不起，我没听清楚，请再说一遍，好吗？",
+        "back": "죄송합니다, 잘 못 들었습니다. 다시 한 번 말씀해주시겠어요?",
+        "additional_info": "duìbuqǐ, wǒ méi tīng qīngchǔ, qǐng zài shuō yí biàn, hǎo ma?",
+        "memo": ""
+    }],
+        [{
+          "book_id": 2,
+          "id": 1,
+          "front": "你看见包罗了没有？我有急事要找他。",
+          "back": "바오뤄를 봤나요? 제가 급히 그를 찾아야 해요.",
+          "additional_info": "nǐ kànjiàn bāoluó le méiyǒu? wǒ yǒu jíshì yào zhǎo tā.",
+          "memo": ""
+        },
+        {
+          "book_id": 2,
+          "id": 2,
+          "front": "刚才我看见他往南门那边走了。",
+          "back": "방금 그가 남문 쪽으로 가는 걸 봤어요.",
+          "additional_info": "gāngcái wǒ kànjiàn tā wǎng nánmén nàbiān zǒu le.",
+          "memo": ""
+        },
+        {
+          "book_id": 2,
+          "id": 3,
+          "front": "你知道他去哪儿了吗？",
+          "back": "그가 어디로 갔는지 아세요?",
+          "additional_info": "nǐ zhīdào tā qù nǎr le ma?",
+          "memo": ""
+        },
+        {
+          "book_id": 2,
+          "id": 4,
+          "front": "不知道。他没看见我。我叫他。他也没听见。",
+          "back": "모르겠어요. 그는 저를 보지 못했어요. 제가 불렀지만 그는 듣지도 못했어요.",
+          "additional_info": "bù zhīdào. tā méi kànjiàn wǒ. wǒ jiào tā. tā yě méi tīngjiàn.",
+          "memo": ""
+        },
+        {
+          "book_id": 2,
+          "id": 5,
+          "front": "你记住他的手机号码？我得给他打个电话。",
+          "back": "그의 핸드폰 번호를 기억하나요? 제가 그에게 전화를 해야 해요.",
+          "additional_info": "nǐ jìzhù tā de shǒujī hàomǎ? wǒ děi gěi tā dǎ ge diànhuà.",
+          "memo": ""
+        },
+        {
+          "book_id": 2,
+          "id": 6,
+          "front": "他关机了。",
+          "back": "그는 휴대폰 전원을 껐어요.",
+          "additional_info": "tā guānjī le.",
+          "memo": ""
+        },
+        {
+          "book_id": 2,
+          "id": 7,
+          "front": "那你就给他发个短信。他一开就看到了。",
+          "back": "그럼 그에게 문자를 보내세요. 그가 전원을 켜면 바로 볼 거예요.",
+          "additional_info": "nà nǐ jiù gěi tā fā ge duǎnxìn. tā yī kāi jiù kàn dào le.",
+          "memo": ""
+        }],
+        [
+            {
+              "book_id": 3,
+              "id": 1,
+              "front": "莉莉呢。",
+              "back": "리리는 어디 있나요?",
+              "additional_info": "lìli ne.",
+              "memo": ""
+            },
+            {
+              "book_id": 3,
+              "id": 2,
+              "front": "他出去了。可能一会儿就回来。",
+              "back": "그녀는 나갔어요. 아마 조금 있으면 돌아올 거예요.",
+              "additional_info": "tā chūqù le. kěnéng yíhuìr jiù huílái.",
+              "memo": ""
+            },
+            {
+              "book_id": 3,
+              "id": 3,
+              "front": "他到那人去了？",
+              "back": "그녀는 어디로 갔나요?",
+              "additional_info": "tā dào nǎr qù le?",
+              "memo": ""
+            },
+            {
+              "book_id": 3,
+              "id": 4,
+              "front": "到书店去了。你进来等他吧。",
+              "back": "서점에 갔어요. 들어와서 그녀를 기다리세요.",
+              "additional_info": "dào shūdiàn qù le. nǐ jìnlái děng tā ba.",
+              "memo": ""
+            },
+            {
+              "book_id": 3,
+              "id": 5,
+              "front": "你正在学习吧？不妨碍你吗？",
+              "back": "공부 중이시죠? 방해되지 않나요?",
+              "additional_info": "nǐ zhèngzài xuéxí ba? bù fáng'ài nǐ ma?",
+              "memo": ""
+            },
+            {
+              "book_id": 3,
+              "id": 6,
+              "front": "没关系，快进屋来吧。",
+              "back": "괜찮아요. 얼른 안으로 들어오세요.",
+              "additional_info": "méi guānxi, kuài jìn wū lái ba.",
+              "memo": ""
+            },
+            {
+              "book_id": 3,
+              "id": 7,
+              "front": "那打扰你了。",
+              "back": "그럼 실례하겠습니다.",
+              "additional_info": "nà dǎrǎo nǐ le.",
+              "memo": ""
+            }
+          ],
+          [
+            {
+              "book_id": 4,
+              "id": 1,
+              "front": "真抱歉。让你久等了。",
+              "back": "정말 미안해요. 오래 기다리게 했네요.",
+              "additional_info": "zhēn bàoqiàn. ràng nǐ jiǔ děng le.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 2,
+              "front": "没什么。这是你叫我帮买的书。",
+              "back": "별거 아니에요. 이건 당신이 부탁한 책이에요.",
+              "additional_info": "méi shénme. zhè shì nǐ jiào wǒ bāng mǎi de shū.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 3,
+              "front": "还麻烦你给我送来，真不好意思。",
+              "back": "번거롭게 배달까지 해주셔서 정말 죄송해요.",
+              "additional_info": "hái máfan nǐ gěi wǒ sòng lái, zhēn bù hǎoyìsi.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 4,
+              "front": "你太客气了。",
+              "back": "너무 겸손하시네요.",
+              "additional_info": "nǐ tài kèqi le.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 5,
+              "front": "你看，我又买回来一些书。",
+              "back": "봐요, 또 몇 권의 책을 샀어요.",
+              "additional_info": "nǐ kàn, wǒ yòu mǎi huílái yīxiē shū.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 6,
+              "front": "这么多，你都准备寄回国去，是吗？",
+              "back": "이렇게 많은 책을 모두 고향으로 보낼 예정인가요?",
+              "additional_info": "zhème duō, nǐ dōu zhǔnbèi jì huíguó qù, shì ma?",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 7,
+              "front": "是啊，我打算明天就寄回去。",
+              "back": "네, 내일 바로 보낼 계획이에요.",
+              "additional_info": "shì a, wǒ dǎsuàn míngtiān jiù jì huíqù.",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 8,
+              "front": "挺重的吗？要我帮忙吗？",
+              "back": "무거운가요? 제가 도와드릴까요?",
+              "additional_info": "tīng zhòng de ma? yào wǒ bāngmáng ma?",
+              "memo": ""
+            },
+            {
+              "book_id": 4,
+              "id": 9,
+              "front": "不用了。",
+              "back": "괜찮아요.",
+              "additional_info": "bùyòng le.",
+              "memo": ""
+            }
+          ]
+  ]
+  

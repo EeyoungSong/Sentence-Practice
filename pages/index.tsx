@@ -4,6 +4,7 @@ import { BoxLayout } from '@/components/BoxLayout';
 import { TowSpaceTextBox } from '@/components/TwoSpaceTextBox';
 import { QuestionLayout } from '@/components/QuestionLayout';
 import { Button } from '@/components/Button/Button';
+import { BigButton } from '@/components/Button/BigButton';
 
 export default function Home(): JSX.Element {
   return (
@@ -14,7 +15,6 @@ export default function Home(): JSX.Element {
             {/* <Droplet className="w-8 h-8 flex" /> */}
             <PlusButton />
           </div>
-          <SwitchBtn />
           <div className="flex-row justify-end items-center w-[100%] h-[500px]">
             {/* <Droplet className="w-8 h-8 flex" /> */}
             <BoxLayout
@@ -29,6 +29,7 @@ export default function Home(): JSX.Element {
           </div>
           <TowSpaceTextBox textBack="a" textFront="b" />
           <Button text="aaaa" />
+          <BigButton text='aaaaaaa' />
         </div>
       </main>
     </>

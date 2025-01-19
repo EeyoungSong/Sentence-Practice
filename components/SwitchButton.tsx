@@ -2,10 +2,12 @@
 
 import { useState } from 'react';
 
-interface SwitchBtnProps {}
+interface SwitchBtnProps {
+ handleClickButton: (selectedCategory: '문장' | '대화' | '단어') => void;
+}
 
-export const SwitchBtn = ({}: SwitchBtnProps): React.ReactElement => {
-  const [category, setCategory] = useState<'문장' | '대화' | '단어'>('대화');
+export const SwitchBtn = ({handleClickButton}: SwitchBtnProps): React.ReactElement => {
+  const [category, setCategory] = useState<'문장' | '대화' | '단어'>('문장');
   console.log(category);
 
   return (
@@ -15,19 +17,28 @@ export const SwitchBtn = ({}: SwitchBtnProps): React.ReactElement => {
       >
         <div
           className={`absolute left-2 w-[calc(33%)] flex justify-center items-center ${category !== '문장' ? '' : 'hidden'} pr-3`}
-          onClick={() => setCategory('문장')}
+          onClick={() => {
+            setCategory('문장');
+            handleClickButton('문장');
+          }}
         >
           문장
         </div>
         <div
           className={`absolute left-[calc(35%)] w-[calc(35%)] flex justify-center items-center ${category !== '대화' ? '' : 'hidden'} pr-3`}
-          onClick={() => setCategory('대화')}
+          onClick={() => {
+            setCategory('대화');
+            handleClickButton('대화');
+          }}
         >
           대화
         </div>
         <div
           className={`absolute right-2 w-[calc(33%)] flex justify-center items-center ${category !== '단어' ? '' : 'hidden'} pl-3`}
-          onClick={() => setCategory('단어')}
+          onClick={() => {
+            setCategory('단어');
+            handleClickButton('단어');
+          }}
         >
           단어
         </div>

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 0,
+        "name": "외연평 본문 3과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 1,
+        "name": "외연평 본문 3과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 2,
+        "name": "외연평 본문 3과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 3,
+        "name": "외연평 본문 4과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 4,
+        "name": "외연평 본문 4과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 5,
+        "name": "외연평 본문 4과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 6,
+        "name": "외연평 본문 5과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 7,
+        "name": "외연평 본문 5과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 8,
+        "name": "외연평 본문 5과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 9,
+        "name": "외연평 본문 6과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 10,
+        "name": "외연평 본문 6과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 11,
+        "name": "외연평 본문 6과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 12,
+        "name": "외연평 본문 7과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 13,
+        "name": "외연평 본문 7과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 14,
+        "name": "외연평 본문 7과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 15,
+        "name": "외연평 본문 8과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 16,
+        "name": "외연평 본문 8과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 17,
+        "name": "외연평 본문 8과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 18,
+        "name": "외연평 본문 9과-1",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 19,
+        "name": "외연평 본문 9과-2",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    }, 
+    {
+        "id": 20,
+        "name": "외연평 본문 9과-3",
+        "category": "대화",
+        "language": "중국어",
+        "average_score": 10
+    },  
+    {
+        "id": 21,
+        "name": "외연평 말하기듣기 수업-1",
+        "category": "문장",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 22,
+        "name": "외연평 말하기듣기 수업-2",
+        "category": "문장",
+        "language": "중국어",
+        "average_score": 10
+    },
+    {
+        "id": 23,
+        "name": "외연평 말하기듣기 수업-3",
+        "category": "문장",
+        "language": "중국어",
+        "average_score": 10
+    }
+]
