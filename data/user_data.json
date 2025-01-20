@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1234E",
+        "username": "송이영",
+        "email": "eeyoung@pwc.com",
+        "department": "robotic&AI",
+        "grade": "aa",
+        "authorization": "manager",
+        "join_stage": 1
+    },
+    {
+        "id": "1234A",
+        "username": "이민호",
+        "email": "minho@pwc.com",
+        "department": "robotic&AI",
+        "grade": "bb",
+        "authorization": "user",
+        "join_stage": 1
+    },
+    {
+        "id": "1234B",
+        "username": "박지현",
+        "email": "jihyun@pwc.com",
+        "department": "robotic&AI",
+        "grade": "cc",
+        "authorization": "manager",
+        "join_stage": 2
+    },
+    {
+        "id": "1234C",
+        "username": "정해인",
+        "email": "haein@pwc.com",
+        "department": "robotic&AI",
+        "grade": "aa",
+        "authorization": "admin",
+        "join_stage": 3
+    },
+    {
+        "id": "1234D",
+        "username": "김지수",
+        "email": "jisoo@pwc.com",
+        "department": "finance",
+        "grade": "dd",
+        "authorization": "user",
+        "join_stage": 1
+    },
+    {
+        "id": "1234F",
+        "username": "윤아영",
+        "email": "ayoung@pwc.com",
+        "department": "finance",
+        "grade": "bb",
+        "authorization": "manager",
+        "join_stage": 1
+    },
+    {
+        "id": "1234G",
+        "username": "송원영",
+        "email": "wntyou@pwc.com",
+        "department": "finance",
+        "grade": "bb",
+        "authorization": "manager",
+        "join_stage": 4
+    }
+]
