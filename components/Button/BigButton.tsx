@@ -1,9 +1,7 @@
-import { FiPlus } from 'react-icons/fi';
-
 interface BigButtonProps {
-    bookId: number;
-    text: string;
-    onClick: (bookId: number) => void;
+  bookId: number;
+  text: string;
+  onClick: (bookId: number) => void;
 }
 
 export const BigButton = ({ bookId, text, onClick }: BigButtonProps): JSX.Element => {

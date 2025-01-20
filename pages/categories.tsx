@@ -1,7 +1,3 @@
-import { BoxLayout } from '@/components/BoxLayout';
-import { QuestionLayout } from '@/components/QuestionLayout';
-import { TowSpaceTextBox } from '@/components/TwoSpaceTextBox';
-import { Button } from '@/components/Button/Button';
 import { BigButton } from '@/components/Button/BigButton';
 import { PlusButton } from '@/components/Button/PlusButton';
 import { SwitchBtn } from '@/components/SwitchButton';
@@ -10,42 +6,43 @@ import bookDataJson from '@/data/book_data.json';
 import { useRouter } from 'next/router';
 
 interface bookDataProps {
-    id: number; 
-    name: string; 
-    category: string; 
-    language: string; 
-    average_score: number;
+  id: number;
+  name: string;
+  category: string;
+  language: string;
+  average_score: number;
 }
 
-const categoryPage = (): JSX.Element => {
-    const [bookData, setBookData] = useState<bookDataProps[]>(bookDataJson);
-    const [filteredData, setFilteredData] = useState<bookDataProps[]>([]);
-    const [selectedCategory, setSelectedCategory] = useState<'문장' | '대화' | '단어'>('문장');
-    const [selectedBookId, setSelectedBookId] = useState<number | undefined>()
-    const router = useRouter();
+const CategoryPage = (): JSX.Element => {
+  const [bookData, setBookData] = useState<bookDataProps[]>(bookDataJson);
+  const [filteredData, setFilteredData] = useState<bookDataProps[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<'문장' | '대화' | '단어'>('문장');
+  const router = useRouter();
 
-    const handleSwitchBtnClick = (category: '문장' | '대화' | '단어') => {
-        setSelectedCategory(category);
-    }
+  useEffect(() => {
+    setBookData(bookDataJson);
+  }, []);
 
-    const filterDataByCategory = () => {
-        setFilteredData(bookData.filter((data) => (
-            data.category === selectedCategory
-        ))) 
-    }
-    useEffect(() => {
-        if (bookData) {
-            filterDataByCategory();
-        }
-    }, [selectedCategory])
+  const handleSwitchBtnClick = (category: '문장' | '대화' | '단어'): void => {
+    setSelectedCategory(category);
+  };
 
-    const handleBookClick = (id: number) => {
-        console.log(id);
-        router.push({
-            pathname: '/sentence-practice',
-            query: { id: String(id) }
-          });
+  const filterDataByCategory = (): void => {
+    setFilteredData(bookData.filter((data) => data.category === selectedCategory));
+  };
+  useEffect(() => {
+    if (bookData) {
+      filterDataByCategory();
     }
+  }, [selectedCategory]);
+
+  const handleBookClick = (id: number): void => {
+    console.log(id);
+    router.push({
+      pathname: '/sentence-practice',
+      query: { id: String(id) },
+    });
+  };
 
   return (
     <div className="flex justify-center w-full m-auto mt-10 text-textBlue">
@@ -53,13 +50,15 @@ const categoryPage = (): JSX.Element => {
         <div className="flex justify-end items-center w-full h-10">
           <PlusButton />
         </div>
-        <SwitchBtn handleClickButton={handleSwitchBtnClick}/>
+        <SwitchBtn handleClickButton={handleSwitchBtnClick} />
         <div className="flex justify-end items-center w-full h-10">
-          <div className="flex justify-center items-center bg-white w-[100px] h-[40px] text-center rounded-[10px]"><div>중국어</div></div>
+          <div className="flex justify-center items-center bg-white w-[100px] h-[40px] text-center rounded-[10px]">
+            <div>중국어</div>
+          </div>
         </div>
         <div className="grid grid-cols-2 gap-5 justify-items-center w-full text-center">
-          {filteredData.map((data, index) => (
-            <BigButton bookId={data.id} text={data.name} onClick={handleBookClick}/>
+          {filteredData.map((data) => (
+            <BigButton key={data.id} bookId={data.id} text={data.name} onClick={handleBookClick} />
           ))}
         </div>
       </div>
@@ -67,4 +66,4 @@ const categoryPage = (): JSX.Element => {
   );
 };
 
-export default categoryPage;
+export default CategoryPage;

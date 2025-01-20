@@ -1,11 +1,9 @@
-import React from 'react';
-
 interface TowSpaceTextBoxProps {
   textFront: string;
   textBack: string;
 }
 
-export const TowSpaceTextBox = ({ textFront, textBack }: TowSpaceTextBoxProps): JSX.Element => {
+export const TwoSpaceTextBox = ({ textFront, textBack }: TowSpaceTextBoxProps): JSX.Element => {
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center ">

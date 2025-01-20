@@ -27,6 +27,7 @@ export const QuestionLayout = ({ type, question, buttons }: InsideLayoutProps): 
             {buttons?.map((item, idx) => {
               return (
                 <div
+                  key={idx}
                   className={`flex justify-center items-center bg-[#CDE8FF] rounded-[30px] ${type === 'button-col' ? 'h-[40px] w-[200px] m-2' : 'h-[40px] w-[70px] m-2'}`}
                 >
                   {item}

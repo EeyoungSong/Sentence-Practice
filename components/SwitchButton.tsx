@@ -3,10 +3,10 @@
 import { useState } from 'react';
 
 interface SwitchBtnProps {
- handleClickButton: (selectedCategory: '문장' | '대화' | '단어') => void;
+  handleClickButton: (selectedCategory: '문장' | '대화' | '단어') => void;
 }
 
-export const SwitchBtn = ({handleClickButton}: SwitchBtnProps): React.ReactElement => {
+export const SwitchBtn = ({ handleClickButton }: SwitchBtnProps): React.ReactElement => {
   const [category, setCategory] = useState<'문장' | '대화' | '단어'>('문장');
   console.log(category);
 

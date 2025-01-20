@@ -1,5 +1,3 @@
-import { FiPlus } from 'react-icons/fi';
-
 interface ButtonProps {
   text: string;
   onClick?: () => void;

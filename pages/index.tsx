@@ -1,12 +1,12 @@
 import { PlusButton } from '@/components/Button/PlusButton';
-import { SwitchBtn } from '@/components/SwitchButton';
 import { BoxLayout } from '@/components/BoxLayout';
-import { TowSpaceTextBox } from '@/components/TwoSpaceTextBox';
+import { TwoSpaceTextBox } from '@/components/TwoSpaceTextBox';
 import { QuestionLayout } from '@/components/QuestionLayout';
 import { Button } from '@/components/Button/Button';
-import { BigButton } from '@/components/Button/BigButton';
+import { useRouter } from 'next/router';
 
 export default function Home(): JSX.Element {
+  const router = useRouter();
   return (
     <>
       <main className="flex justify-center w-[100%] m-auto mt-10 text-textBlue">
@@ -17,18 +17,16 @@ export default function Home(): JSX.Element {
           </div>
           <div className="flex-row justify-end items-center w-[100%] h-[500px]">
             {/* <Droplet className="w-8 h-8 flex" /> */}
-            <BoxLayout
-              children={
-                <QuestionLayout
-                  type="button-row"
-                  question="몇번이나 연습하고싶어?"
-                  buttons={['a', 'b']}
-                />
-              }
-            />
+            <BoxLayout>
+              <QuestionLayout
+                type="button-row"
+                question="몇번이나 연습하고싶어?"
+                buttons={['a', 'b']}
+              />
+            </BoxLayout>
           </div>
-          <TowSpaceTextBox textBack="a" textFront="b" />
-          <Button text="aaaa" />
+          <TwoSpaceTextBox textBack="a" textFront="b" />
+          <Button text="카테고리로" onClick={() => router.push('/categories')} />
           {/* <BigButton text='aaaaaaa' /> */}
         </div>
       </main>
