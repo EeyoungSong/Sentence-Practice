@@ -4,7 +4,7 @@ interface BoxLayoutProps {
 
 export const BoxLayout = ({ children }: BoxLayoutProps): JSX.Element => {
   return (
-    <div className="flex justify-center items-center relative bg-white text-textBlue p-4 rounded-[30px] min-h-[300px] w-[100%]">
+    <div className="flex justify-center items-center relative bg-white text-textBlue p-4 rounded-[30px] min-h-[300px] w-[350px]">
       {children}
       {/* Tail 아래의 다양한 요소들 */}
       <div className="absolute bottom-[-30px] right-20 w-0 h-0 border-l-[30px] border-t-[40px] border-r-[30px] border-t-white border-l-transparent border-r-transparent"></div>

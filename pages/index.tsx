@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
             </BoxLayout>
           </div>
           <TwoSpaceTextBox textBack="a" textFront="b" />
-          <Button text="카테고리로" onClick={() => router.push('/categories')} />
+          <Button text="카테고리로" onClick={() => router.push('/categories')} size="big" />
           {/* <BigButton text='aaaaaaa' /> */}
         </div>
       </main>

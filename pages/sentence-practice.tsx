@@ -7,6 +7,7 @@ import { NextButton } from '@/components/Button/NextButton';
 import { ScoreButton } from '@/components/Button/ScoreButton';
 import { useRouter } from 'next/router';
 import { HomeIcon } from 'lucide-react';
+import { Portal } from '@/components/ModalPortal';
 
 // interface bookDataProps {
 //   id: number;
@@ -40,6 +41,7 @@ const SentencePracticePage = (): JSX.Element => {
   const [showAdditionalInfo, setShowAdditionalInfo] = useState<boolean>(false);
   const [selectedScore, setSelectedScore] = useState<number | undefined>();
   const [totalScore, setTotalScore] = useState<number>(0);
+  const [onTotalScoreModal, setOnTotalScoreModal] = useState<boolean>(false);
 
   useEffect(() => {
     setSentenceDataAll(sentenceDataJson);
@@ -84,7 +86,7 @@ const SentencePracticePage = (): JSX.Element => {
   };
 
   const handlePrevButtonClick = (): void => {
-    if (curSentenceIdx >= 0) {
+    if (curSentenceIdx > 0) {
       setCurSentenceIdx((prev) => prev - 1);
     }
     setFlipped(false);
@@ -97,6 +99,7 @@ const SentencePracticePage = (): JSX.Element => {
       scoreSum += data.score ? data.score : 0;
     });
     setTotalScore(scoreSum / sentenceData.length);
+    setOnTotalScoreModal(true);
   };
 
   useEffect(() => {
@@ -142,7 +145,11 @@ const SentencePracticePage = (): JSX.Element => {
                   )}
                 </div>
                 <div className="flex justify-end items-center w-full h-10 space-x-1">
-                  <NextButton isPrev={true} onClick={() => handlePrevButtonClick()} />
+                  <NextButton
+                    isPrev={true}
+                    onClick={() => handlePrevButtonClick()}
+                    color={curSentenceIdx > 0 ? 'textBlue' : 'gray-300'}
+                  />
                   {[1, 2, 3, 4, 5].map((idx) => (
                     <ScoreButton
                       key={idx}
@@ -152,12 +159,15 @@ const SentencePracticePage = (): JSX.Element => {
                     />
                   ))}
 
-                  <NextButton isPrev={false} onClick={() => handleNextButtonClick()} />
+                  <NextButton
+                    isPrev={false}
+                    onClick={() => handleNextButtonClick()}
+                    color={curSentenceIdx < sentenceData.length - 1 ? 'textBlue' : 'gray-300'}
+                  />
                 </div>
                 {curSentenceIdx >= sentenceData.length - 1 && (
-                  <div>
-                    <Button onClick={showTotalScore} text="점수보기" />
-                    <div>{totalScore}</div>
+                  <div className="mt-2">
+                    <Button onClick={showTotalScore} text="점수보기" size="small" />
                   </div>
                 )}
               </div>
@@ -165,6 +175,21 @@ const SentencePracticePage = (): JSX.Element => {
           </BoxLayout>
         </div>
       </div>
+      {onTotalScoreModal && (
+        <Portal>
+          <div className="flex flex-col justify-center items-center w-[200px] bg-toggleBlue h-[200px] rounded-[30px]">
+            <div>{totalScore}점</div>
+            <Button
+              onClick={() => {
+                setCurSentenceIdx(0);
+                setOnTotalScoreModal(false);
+              }}
+              text="다시 외우기"
+              size="small"
+            />
+          </div>
+        </Portal>
+      )}
     </div>
   );
 };
